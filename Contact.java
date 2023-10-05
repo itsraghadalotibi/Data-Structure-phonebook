@@ -41,7 +41,7 @@ events = new LinkedList<Events>();
 
     public boolean addEvent(Event newEvent ){
         if (events.empty==true) {
-          events.insertSort(newEvent); 
+          events.add(newEvent); 
              return true;
         }
     
@@ -56,7 +56,7 @@ events = new LinkedList<Events>();
                 
             
         }
-             events.insertSort(newEvent) ;
+             events.add(newEvent) ;
              return true;
     
     }}
