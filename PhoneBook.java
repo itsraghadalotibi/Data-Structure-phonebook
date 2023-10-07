@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package LinkedList_PhoneBook;
+//package LinkedList_PhoneBook;
 import java.util.*;
 public class PhoneBook {
     
-    static LinkedList<Contact> contactList = new LinkedList<Contact>();
-    static LinkedList<Event> eventList = new LinkedList<Event>();
+    static DoubleLinkedList<Contact> contactList = new DoubleLinkedList<Contact>();
+    static DoubleLinkedList<Event> eventList = new DoubleLinkedList<Event>();
 
     public static void main(String[]args){
         
