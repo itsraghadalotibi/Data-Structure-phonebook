@@ -1,4 +1,7 @@
 
+
+import org.w3c.dom.events.Event;
+
 public class Contact implements Comparable<Contact>{
  
 private String name;
@@ -16,7 +19,7 @@ emailaddress = "";
 address = "" ;
 birthday = "";
 notes = "";
-events = new LinkedList<Events>();
+events = new DoubleLinkedList<Events>();
 
 }
 

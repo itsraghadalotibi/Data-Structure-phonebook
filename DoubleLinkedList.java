@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 public class DoubleLinkedList<T> {
      private Node<T> head;
     private Node<T> current;
