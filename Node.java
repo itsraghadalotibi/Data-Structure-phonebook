@@ -6,7 +6,8 @@ public Node<T> next;
 public Node () {
  data = null; next = null; previous = null;
 }
-public Node (T val) { data = val;
+public Node (T val) {
+     data = val;
     next = null;
     previous= null;
 }
