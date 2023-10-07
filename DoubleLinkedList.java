@@ -1,4 +1,3 @@
-public class interface DoubleLinkedList<T> {
 public class DoubleLinkedList<T> implements List<T> {
     private Node<T> head;
     private Node<T> current;

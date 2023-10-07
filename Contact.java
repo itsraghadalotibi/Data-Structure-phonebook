@@ -33,7 +33,6 @@ events = new DoubleLinkedList<Events>();
         this.address = adress;
         this.birthday = birthday;
         this.notes = notes;
-        events = new DoubleLinkedList<Events>();
         events = new DoubleLinkedList <Events>();
         
     }
