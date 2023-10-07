@@ -2,7 +2,9 @@
 
 //import org.w3c.dom.events.Event;
 
-public class Contact implements Comparable<Contact>{
+//import java.util.LinkedList;
+
+public class Contact implements Comparable<Contact> {
  
 private String name;
 private String phonenumber;
@@ -10,7 +12,7 @@ private String emailaddress;
 private String address;
 private String birthday ;
 private String notes;
-private LinkedList<Events> events ;
+private DoubleLinkedList <Events> events ;
 
 public Contact(){
 name="";
@@ -31,7 +33,7 @@ events = new DoubleLinkedList<Events>();
         this.address = adress;
         this.birthday = birthday;
         this.notes = notes;
-        events = new LinkedList<Events>();
+        events = new DoubleLinkedList<Events>();
         
     }
 
