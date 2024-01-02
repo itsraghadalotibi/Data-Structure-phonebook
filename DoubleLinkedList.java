@@ -63,7 +63,18 @@ public void findPrevious() {
 public void findLast() { while(current.next != null)
             current = current.next; 
         }
-
+public boolean search(T key ) {
+    Node<T> tmp = current; //keep the current value saved
+    current = head; //start from the head
+    while(current != null) {   //list is not empaty
+    T s = s.get
+    if(current.data.equals(key))
+    return true;
+    current = current.next;
+    }
+    current = tmp;
+    return false; 
+}
             
 
 
